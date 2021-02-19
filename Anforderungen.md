@@ -10,7 +10,7 @@ PALI: Auf der Startseite soll es möglich sein, zwischen den Sprachen Deutsch (=
 |Precup David|it180211|
 |Halilovic Ema|emaemaxd|
 |Witak Mathias|serwushhhhhh|
-|Auinger Dominik|it180173 !!!|
+|Auinger Dominik|Derel20003|
 |Hroner Paul|it170147|
 |Litzlbauer Lorenz|L0R3N7|
 |Abbas Ali Sami|SamiS7|
