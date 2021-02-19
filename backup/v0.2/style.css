@@ -1,0 +1,132 @@
+h1 {
+  text-align: center;
+  font-size: 5vw;
+}
+footer {
+  position: fixed;
+  top: 90.5%;
+  left: 44%;
+  font-size: 1.2vw;
+}
+img {
+  width: 10vw;
+  border-radius: 1vw;
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d4d4d;
+  color: white;
+  font-family: "Candara";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > div {
+}
+.fourcollums {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 12vw;
+}
+.collum {
+  text-align: center;
+  width: 25%;
+  padding-top: 0vw;
+  padding-bottom: 16vw;
+}
+
+.collum:link:hover {
+  outline: dotted red;
+}
+
+#firstcollum {
+  background-color: #ffd900;
+}
+#secondcollum {
+  background-color: #00ff37;
+}
+#thirdcollum {
+  background-color: #3700ff;
+}
+#fourthcollum {
+  background-color: #ff0000;
+}
+
+.placeholder {
+	
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.placeholder:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+#bestappever {
+  font-size: 10rem;
+}
+
+p {
+  font-size: 2vw;
+}
+
+.oeffis {
+  border: 1px solid red;
+}
+
+#logo {
+  border-radius: 0vw;
+}
+.restaurant {
+  opacity: 0.8;
+}
+.restaurant:hover {
+  opacity: 1;
+}
+
+.fa-bus {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transition: 0.5s;
+  text-decoration: none;
+  color: orange;
+}
+
+.fa-bus:hover {
+  transform: scale(1.1);
+}
+
+#sights {
+  margin: 10%;
+  width: 21%;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+
+#sights:hover {
+  border: 3px black solid;
+}

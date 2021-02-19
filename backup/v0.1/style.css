@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    font-size: 5vw;
+
+}
+footer{
+    position: fixed;
+    top: 90.5%;
+    left: 44%;
+    font-size: 1.2vw;
+    
+}
+img{
+    width: 10vw;
+    border-radius: 1vw;
+}
+
+header{
+	width: 100vw;
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #4d4d4d;
+	color: white;
+	font-family: 'Lemonada', cursive;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.mainDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.mainDiv > div >img{
+width: 5vw;
+height: auto;
+}
+
+
+p{
+	font-size = 200vw;
+}
+
+.oeffis {
+border: 1px solid red;
+}
+
+.oeffis img {
+position: absolute;
+top: 150px;
+left: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
