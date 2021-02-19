@@ -1,7 +1,4 @@
-Rechte vergeben
-
-PALI: Auf der Startseite soll es möglich sein, zwischen den Sprachen Deutsch (=Default) und Englisch hin-und-her zu wechseln (Website Localization/Lokalisierung). Die Spracheinstellung soll dann auch für Unterseiten gültig sein.
-
+Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des vorgegebenen Stichwortes, ähnlich wie beim vorgegebenen Beispiel "Lokalisierung".
 
 |Name|Nutzer|Stichwort|Ausformulierte Anforderung|
 |-|-|-|-|
@@ -19,8 +16,8 @@ PALI: Auf der Startseite soll es möglich sein, zwischen den Sprachen Deutsch (=
 |Ursprung David|DavidUrsprung|Wartbarkeit||
 |Maar Fabian|it180205|Erweiterbarkeit||
 |Altenhofer David|it180171|Verfügbarkeit||
-|Palitsch-Infanger Michael|Leo-PALI|
+|Palitsch-Infanger Michael|Leo-PALI|Lokalisierung|Auf der Startseite soll es möglich sein, zwischen den Sprachen Deutsch (=Default) und Englisch hin-und-her zu wechseln (Website Localization/Lokalisierung). Die Spracheinstellung soll dann auch für Unterseiten gültig sein.|
 |Ettinger Fabian|it180184|Datenschutz||
 |Pouget Marcl|Zwerg95|Mobile-friendly||
-|Scheiblhofer Julia|???|Internet Security||
-|Stencel Michal|???|Reliability||
+|Scheiblhofer Julia|???|Sicherheit||
+|Stencel Michal|???|Zuverlässigkeit||
