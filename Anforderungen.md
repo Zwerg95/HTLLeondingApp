@@ -19,5 +19,5 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Palitsch-Infanger Michael|Leo-PALI|Lokalisierung|Auf der Startseite soll es möglich sein, zwischen den Sprachen Deutsch (=Default) und Englisch hin-und-her zu wechseln (Website Localization/Lokalisierung). Die Spracheinstellung soll dann auch für Unterseiten gültig sein.|
 |Ettinger Fabian|it180184|Datenschutz||
 |Pouget Marcl|Zwerg95|Mobile-friendly||
-|Scheiblhofer Julia|???|Sicherheit||
+|Scheiblhofer Julia|Feileacan-j|Sicherheit||
 |Stencel Michal|???|Zuverlässigkeit||
