@@ -9,7 +9,7 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Witak Mathias|serwushhhhhh|Angemeldete User||
 |Auinger Dominik|Derel20003|Anonyme User||
 |Horner Paul|it170147|Bild-Verwaltung||
-|Litzlbauer Lorenz|L0R3N7|eine Management-Anforderung||
+|Litzlbauer Lorenz|L0R3N7|eine Management-Anforderung|Wir sollten unsere Veränderungen nach einer bestimmten Form dokumentieren,  damit wir leichter zu managen sind.|
 |Abbas Ali Sami|SamiS7|eine Prozess-Anforderung||
 |Cagitz Annika|it180179|Mengengerüst||
 |Bikic Ana|it180175|Adress-Verwaltung||
