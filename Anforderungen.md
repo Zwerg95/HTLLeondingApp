@@ -13,8 +13,8 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Abbas Ali Sami|SamiS7|eine Prozess-Anforderung||
 |Cagitz Annika|it180179|Mengengerüst||
 |Bikic Ana|it180175|Adress-Verwaltung||
-|Ursprung David|DavidUrsprung|Wartbarkeit|Das Projekt soll einfach zu warten sein, durch die Hilfe von GitHub oder anderen Versionsbasierten Speicherdiensten.|
-|Maar Fabian|it180205|Erweiterbarkeit||
+|Ursprung David|DavidUrsprung|Wartbarkeit|Das Projekt soll einfach zu warten sein, durch die Hilfe von GitHub oder anderen versionsbasierten Speicherdiensten.|
+|Maar Fabian|it180205|Erweiterbarkeit|Das Projekt soll einfach zu erweitern sein. Agile Projektentwicklung würde sich anbieten. Wir sollten von Anfang an unser Projekt mit dem, Hintergedanken es ständing zu erweitern, zu planen. 
 |Altenhofer David|it180171|Verfügbarkeit||
 |Palitsch-Infanger Michael|Leo-PALI|Lokalisierung|Auf der Startseite soll es möglich sein, zwischen den Sprachen Deutsch (=Default) und Englisch hin-und-her zu wechseln (Website Localization/Lokalisierung). Die Spracheinstellung soll dann auch für Unterseiten gültig sein.|
 |Ettinger Fabian|it180184|Datenschutz||
