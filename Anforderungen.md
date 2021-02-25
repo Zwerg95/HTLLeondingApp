@@ -5,7 +5,7 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Knoll Simon|IT180199 !!!|Restaurants||
 |Brunner Daniel|dlp9664|Unterkünfte||
 |Precup David|it180211|Sehenswürdigkeiten||
-|Halilovic Ema|emaemaxd|Öffentliche Verkehrsmittel||
+|Halilovic Ema|emaemaxd|Öffentliche Verkehrsmittel|Man soll nach bestimmten Stationen suchen können, dann werden nur Verbindungen zu genau der Station angezeigt.||
 |Witak Mathias|serwushhhhhh|Angemeldete User||
 |Auinger Dominik|Derel20003|Anonyme User||
 |Horner Paul|it170147|Bild-Verwaltung||
