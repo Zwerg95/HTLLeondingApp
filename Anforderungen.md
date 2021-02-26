@@ -7,8 +7,8 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Precup David|it180211|Sehenswürdigkeiten|Alle Sehenswürdigkeiten	werden in Regionen gefiltert|-|
 |Halilovic Ema|emaemaxd|Öffentliche Verkehrsmittel|Man soll nach bestimmten Stationen suchen können, dann werden nur Verbindungen zu genau der Station angezeigt.|||
 |Witak Mathias|serwushhhhhh|Angemeldete User|||
-|Auinger Dominik|Derel20003|Anonyme User|Man sollte auch ohne Anmeldung auf die Seite zugreifen können, ein paar Funktionen werden dabei nicht verfügbar sein.||
-|Horner Paul|it170147|Bild-Verwaltung|Alle bilder sollten schnell geladen werden konnen und trotzdem noch gute Qualität haben.||
+|Auinger Dominik|Derel20003|Anonyme User|Es wird auch ohne Anmeldung möglich sein, auf die Seite zuzugreifen, ein paar Funktionen werden dabei nicht verfügbar sein.||
+|Horner Paul|it170147|Bild-Verwaltung|||
 |Litzlbauer Lorenz|L0R3N7|eine Management-Anforderung|Wir sollten unsere Veränderungen nach einer bestimmten Form dokumentieren,  damit wir leichter zu managen sind.||
 |Abbas Ali Sami|SamiS7|eine Prozess-Anforderung| Der Server soll mit NodeJS programmiert werden.||
 |Cagitz Annika|it180179|Mengengerüst|Ein Mengengerüst soll erstellt werden um die Zusammensetzung eines Objekts oder Vorgangs zu beschreiben.||
