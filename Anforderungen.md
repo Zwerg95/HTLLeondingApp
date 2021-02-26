@@ -10,9 +10,9 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Auinger Dominik|Derel20003|Anonyme User|Man sollte auch ohne Anmeldung auf die Seite zugreifen können, ein paar Funktionen werden dabei nicht verfügbar sein.|
 |Horner Paul|it170147|Bild-Verwaltung||
 |Litzlbauer Lorenz|L0R3N7|eine Management-Anforderung|Wir sollten unsere Veränderungen nach einer bestimmten Form dokumentieren,  damit wir leichter zu managen sind.|
-|Abbas Ali Sami|SamiS7|eine Prozess-Anforderung||
+|Abbas Ali Sami|SamiS7|eine Prozess-Anforderung| Der Server soll mit NodeJS programiert werden.|
 |Cagitz Annika|it180179|Mengengerüst||
-|Bikic Ana|it180175|Adress-Verwaltung||Adressverwaltung ist eine einheitliche Speicherung und Sortierung von gesammelten Adressdatensätzen. Wir sollten unsere Adressen detailliert verwalten und speichern um eine größere Effizienz zu erreichen.  
+|Bikic Ana|it180175|Adress-Verwaltung||Adressverwaltung ist eine einheitliche Speicherung und Sortierung von gesammelten Adressdatensätzen. Wenn wir unsere Adressen detailliert verwalten und speichern haben wir dadurch mehr Effizienz. 
 |Ursprung David|DavidUrsprung|Wartbarkeit|Das Projekt soll einfach zu warten sein, durch die Hilfe von GitHub oder anderen versionsbasierten Speicherdiensten.|
 |Maar Fabian|it180205|Erweiterbarkeit|Das Projekt soll einfach zu erweitern sein. Agile Projektentwicklung würde sich anbieten. Wir sollten von Anfang an unser Projekt mit dem, Hintergedanken es ständing zu erweitern, zu planen. 
 |Altenhofer David|it180171|Verfügbarkeit||Die App sollte sich automatisch aktualisieren und anpassen an die aktuelle Verfügbarkeit der Unterkünfte und öffentlichen Verkehrsmittel.|
