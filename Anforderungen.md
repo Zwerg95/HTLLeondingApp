@@ -17,7 +17,12 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Maar Fabian|it180205|Erweiterbarkeit|Das Projekt soll einfach zu erweitern sein. Agile Projektentwicklung würde sich anbieten. Wir sollten von Anfang an unser Projekt mit dem, Hintergedanken es ständing zu erweitern, zu planen. 
 |Altenhofer David|it180171|Verfügbarkeit||
 |Palitsch-Infanger Michael|Leo-PALI|Lokalisierung|Auf der Startseite soll es möglich sein, zwischen den Sprachen Deutsch (=Default) und Englisch hin-und-her zu wechseln (Website Localization/Lokalisierung). Die Spracheinstellung soll dann auch für Unterseiten gültig sein.|
+<<<<<<< HEAD
 |Ettinger Fabian|it180184|Datenschutz||
 |Pouget Marcl|Zwerg95|Mobile-friendly|| Die Seite sollte auf verschiedenen Geräten gut aussehen (Handys, Tablets, PC und Laptop)||
+=======
+|Ettinger Fabian|it180184|Datenschutz|Bei der Anmeldung sollen die Nutzerdaten über eine verschlüsselte Verbindung an den Server geschickt werden. Es soll dann eine Session gespeichert werden über die der Nutzer eingeloggt bleibt. So kann garantiert werden, dass die Login-Daten der Benutzer nicht gestohlen werden können.|
+|Pouget Marcl|Zwerg95|Mobile-friendly|| Die Seite sollte auf allen Geräten (Tablets, Handys, Laptops und Pc gut aussehen)
+>>>>>>> f6ddf34b19263c102ae82ea7cfdc7111c364fae1
 |Scheiblhofer Julia|Feileacan-j|Sicherheit||
 |Stencel Michal|???|Zuverlässigkeit||
