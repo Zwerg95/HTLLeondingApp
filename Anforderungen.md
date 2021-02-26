@@ -11,7 +11,7 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Horner Paul|it170147|Bild-Verwaltung||
 |Litzlbauer Lorenz|L0R3N7|eine Management-Anforderung|Wir sollten unsere Veränderungen nach einer bestimmten Form dokumentieren,  damit wir leichter zu managen sind.|
 |Abbas Ali Sami|SamiS7|eine Prozess-Anforderung| Der Server soll mit NodeJS programmiert werden.|
-|Cagitz Annika|it180179|Mengengerüst||
+|Cagitz Annika|it180179|Mengengerüst|Ein Mengengerüst soll erstellt werden um die Zusammensetzung eines Objekts oder Vorgangs zu beschreiben.|
 |Bikic Ana|it180175|Adress-Verwaltung|Adressverwaltung ist eine einheitliche Speicherung und Sortierung von gesammelten Adressdatensätzen. Wenn wir unsere Adressen detailliert verwalten und speichern haben wir dadurch mehr Effizienz.|
 |Ursprung David|DavidUrsprung|Wartbarkeit|Das Projekt soll einfach zu warten sein, durch die Hilfe von GitHub oder anderen versionsbasierten Speicherdiensten.|
 |Maar Fabian|it180205|Erweiterbarkeit|Das Projekt soll einfach zu erweitern sein. Agile Projektentwicklung würde sich anbieten. Wir sollten von Anfang an unser Projekt mit dem, Hintergedanken es ständing zu erweitern, zu planen. 
