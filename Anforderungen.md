@@ -7,7 +7,7 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Precup David|it180211|Sehenswürdigkeiten|Alle Sehenswürdigkeiten	werden in Regionen gefiltert|-|
 |Halilovic Ema|emaemaxd|Öffentliche Verkehrsmittel|Man soll nach bestimmten Stationen suchen können, dann werden nur Verbindungen zu genau der Station angezeigt.|||
 |Witak Mathias|serwushhhhhh|Angemeldete User|Jeder angemeldete User sollte automatisch wieder eingeloggt werden, außerdem sollte jeder registrierte User Vorteile gegenüber nicht registrierten haben.||
-|Auinger Dominik|Derel20003|Anonyme User|Es wird auch ohne Anmeldung funktionieren, auf die Seite zuzugreifen, ein paar Funktionen werden dabei nicht verfügbar sein.||
+|Auinger Dominik|Derel20003|Anonyme User|Es wird auch ohne Anmeldung funktionieren, auf die Seite zuzugreifen, Angemeldete-User-Funktionen sind dabei nicht verfügbar.||
 |Horner Paul|it170147|Bild-Verwaltung|Alle bilder sollten schnell geladen werden konnen und trotzdem noch gute Qualität haben.||
 |Litzlbauer Lorenz|L0R3N7|eine Management-Anforderung|Wir sollten unsere Veränderungen nach einer bestimmten Form dokumentieren,  damit wir leichter zu managen sind.||
 |Abbas Ali Sami|SamiS7|eine Prozess-Anforderung| Der Server soll mit NodeJS programmiert werden.||
