@@ -3,7 +3,7 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Name|Nutzer|Stichwort|Ausformulierte Anforderung|
 |-|-|-|-|
 |Knoll Simon|IT180199 !!!|Restaurants||
-|Brunner Daniel|dlp9664|Unterkünfte|| Man sollte alle Unterkünfte in der Nähe sehen und auch den Preis.
+|Brunner Daniel|dlp9664|Unterkünfte|| Man sollte alle Unterkünfte in der Nähe sehen und auch den Preis.|
 |Precup David|it180211|Sehenswürdigkeiten||
 |Halilovic Ema|emaemaxd|Öffentliche Verkehrsmittel|Man soll nach bestimmten Stationen suchen können, dann werden nur Verbindungen zu genau der Station angezeigt.||
 |Witak Mathias|serwushhhhhh|Angemeldete User||
