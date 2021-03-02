@@ -20,4 +20,4 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Ettinger Fabian|it180184|Datenschutz|Bei der Anmeldung sollen die Nutzerdaten über eine verschlüsselte Verbindung an den Server geschickt werden. Es soll dann eine Session gespeichert werden über die der Nutzer eingeloggt bleibt. So kann garantiert werden, dass die Login-Daten der Benutzer nicht gestohlen werden können.||
 |Pouget Marcl|Zwerg95|Mobile-friendly|Die Seite sollte auf allen Geräten (Tablets, Handys, Laptops und Pc gut aussehen)||
 |Scheiblhofer Julia|Feileacan-j|Sicherheit|Server mit REGEX absichern, Passwörter verschlüsseln in der Datenbank||
-|Stencel Michal|obyczaj|Zuverlässigkeit|Informationen in der App sollen aktuell gehalten werden. Bei Änderungen z.B. der Öffnungszeiten sollen diese auch in der App aktualisiert werden.||
+|Stencel Michal|obyczaj|Zuverlässigkeit|Informationen in der App sollen aktuell gehalten werden. Bei Änderungen z.B. der Öffnungszeiten sollen diese auch in der App aktualisiert werden.|Als Tourist möchte ich in der App nur korrekte und aktuelle Informationen präsentiert bekommen.|
