@@ -19,5 +19,5 @@ Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des 
 |Palitsch-Infanger Michael|Leo-PALI|Lokalisierung|Auf der Startseite wird ermöglicht, zwischen den Sprachen Deutsch (=Default) und Englisch hin-und-her zu wechseln (Website Localization/Lokalisierung). Die Spracheinstellung ist dann auch für Unterseiten gültig.|Als nicht-deutschspracher User der TourismusApp wünsche ich mir eine Möglichkeit, von Deutsch auf Englisch umschalten zu können, um dann die gesamte App in englischer Sprache zu nutzen.|
 |Ettinger Fabian|it180184|Datenschutz|Bei der Anmeldung sollen die Nutzerdaten über eine verschlüsselte Verbindung an den Server geschickt werden. Es soll dann eine Session gespeichert werden über die der Nutzer eingeloggt bleibt. So kann garantiert werden, dass die Login-Daten der Benutzer nicht gestohlen werden können.||
 |Pouget Marcl|Zwerg95|Mobile-friendly|Die Seite sollte auf allen Geräten (Tablets, Handys, Laptops und Pc gut aussehen)||
-|Scheiblhofer Julia|Feileacan-j|Sicherheit||Server mit REGEX absichern, Passwörter verschlüsseln in der Datenbank|
+|Scheiblhofer Julia|Feileacan-j|Sicherheit|Server mit REGEX absichern, Passwörter verschlüsseln in der Datenbank||
 |Stencel Michal|obyczaj|Zuverlässigkeit|||
