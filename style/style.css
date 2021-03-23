@@ -132,7 +132,7 @@ main > div > img {
 
   /* Header div bisschen kleiner */
 header {
-  height: 15vh;
+  height: 12vh;
 }
 
 /* Damit die 4 Boxen untereinander stehen */
@@ -150,5 +150,10 @@ header {
   padding-right: 15vw;
   width: 20vw;
 }
+  
+ footer{
+   font-size 1.5rem;
+   height: 8vh;
+  }
 
 }
