@@ -74,16 +74,16 @@ main > div {
 }
 
 #c1 {
-  background-color: #f0b624;
+  background-color: #eb3a34;
 }
 #c2 {
-  background-color: #55eb34;
+  background-color: #ebbd34
 }
 #c3 {
-  background-color: #2bbfc2;
+  background-color: #40cae6;
 }
 #c4 {
-  background-color: #4cf032;
+  background-color: #e726eb;
 }
 
 footer {
@@ -137,7 +137,7 @@ header {
 
 /* Damit die 4 Boxen untereinander stehen */
   main{
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 
   }
 
