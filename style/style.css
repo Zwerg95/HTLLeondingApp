@@ -145,10 +145,6 @@ header {
     width: 100vw;
     height: 20vh;
   }
-
-  main > div > img {
-    width: 40vw;
-  }
   
   #logo {
   padding-right: 15vw;
