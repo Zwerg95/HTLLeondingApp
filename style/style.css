@@ -108,7 +108,7 @@ main > div > img {
   opacity: 0.8;
 }
 .placeholder:hover {
-  transform: scale(1.4);
+  transform: scale(1.55);
   opacity: 1;
 }
 
