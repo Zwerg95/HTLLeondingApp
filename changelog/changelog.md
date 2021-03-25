@@ -6,6 +6,8 @@ created flex column design \~Marcel (23.10.20)
 
 made site responsive for mobile and restructured CSS \~Michal (23.10.20)
 
+changed rest.html \~Sami (25.03.20)
+
 To do:
 
 Bild für Unterkunft finden, verlinken
