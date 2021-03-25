@@ -19,7 +19,7 @@ Im :root befinden sich die Variablen, damit wir nicht im Code suchen müssen, um
 
 /* Text */
 
-h1 {
+h1, header i {
   text-align: center;
   font-size: var(--headersize);
 }
