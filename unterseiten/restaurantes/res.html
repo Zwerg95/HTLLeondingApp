@@ -1,33 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tourismus App</title>
-        <link rel="stylesheet" href="../../style/style.css">
-        <script src="https://kit.fontawesome.com/bd27afc184.js"
-            crossorigin="anonymous" defer></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourismus App</title>
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd27afc184.js" crossorigin="anonymous" defer></script>
+</head>
 
-    <body>
-        <header>
-            <h1>Tourismus App <span class="orange">Le<span id="heart">❤</span>nding</span></h1>
-        </header>
+<body>
+    <header>
+        <a href="../../index.html">
+            <i class="fas fa-home"></i>
+        </a>
+        <h1>Die 3 besten Restaurants in <span class="orange">Le<span id="heart">❤</span>nding</span></h1>
+    </header>
 
-        <main>
+    <div id="content">
+        <div id="iconBox">
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div id="linkBox">
+            <div class="restImgs">
+                <a href="https://www.bergdiele-linz.at/?lang=de">
+                    <img id="img1" src="../../media/img/Bergdiele.jpg">
+                    <h2>Bergdiele Linz-Leonding</h2>
+                </a>
+            </div>
+            <div class="restImgs">
+                <a href="https://www.ristorante-laruffa.at/leonding/">
+                    <img id="img2" src="../../media/img/Ristorante-LaRuffa.jpg">
+                    <h2>Ristorante La Ruffa Leonding</h2>
+                </a>
+            </div>
+            <div class="restImgs">
+                <a href="https://www.asiarestaurant-taifun.at/">
+                    <img src="../../media/img/asiarestaurant-taifun.jpg">
+                    <h2>Taifun Panasian Restaurant</h2>
+                </a>
+            </div>
+        </div>
+    </div>
 
-
-            <div id="c1">placeholder </div>
-            <div id="c2">placeholder </div>
-            <div id="c3">placeholder </div>
-            <div id="c4">placeholder </div>
-        </main>
-        <footer>
-            <img id="logo" src="../../media/img/htllogo.png" alt="HTL Leonding
+    <footer>
+        <img id="logo" src="../../media/img/htllogo.png" alt="HTL Leonding
                 Logo">
-            <p>3BHITM 2&copy;2&copy;/21</p>
-        </footer>
-    </body>
+        <p>3BHITM 2&copy;2&copy;/21</p>
+    </footer>
+</body>
+
+<script>
+    document.getElementById('img1').height = document.getElementById('img2').height;
+    document.getElementById('linkBox').height = document.getElementById('img2').height;
+    window.addEventListener("resize", () => {
+        document.getElementById('img1').height = document.getElementById('img2').height;
+    });
+
+    let elements = document.getElementsByClassName('restImgs');
+    document.getElementsByClassName('fa-chevron-left')[0].addEventListener('click', () => {
+        let ib = -1;
+        for (i = 0; i < elements.length; i++) {
+            let e = elements[i];
+            if (e.style.zIndex == '5') {
+                e.style.zIndex = 0;
+                ib = i;
+                break;
+            }
+        }
+        if (ib == -1) {
+            ib = elements.length - 1;
+        }
+        if (ib <= 0) {
+            ib = elements.length - 1;
+        } else {
+            ib = ib - 1;
+        }
+        elements[ib].style.zIndex = 5;
+    });
+
+    document.getElementsByClassName('fa-chevron-right')[0].addEventListener('click', () => {
+        let elements = document.getElementsByClassName('restImgs');
+        let ib = -1;
+        for (i = 0; i < elements.length; i++) {
+            let e = elements[i];
+            if (e.style.zIndex == '5') {
+                e.style.zIndex = 0;
+                ib = i;
+                break;
+            }
+        }
+        if (ib == -1) {
+            ib = elements.length - 1;
+        }
+        if (i >= elements.length - 1) {
+            ib = 0;
+        } else {
+            ib = ib + 1;
+        }
+        elements[ib].style.zIndex = 5;
+    });
+</script>
 
 </html>
