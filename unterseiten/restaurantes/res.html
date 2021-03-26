@@ -32,7 +32,10 @@
             </div>
             <div class="restImgs">
                 <a href="https://www.ristorante-laruffa.at/leonding/">
-                    <img id="img2" onload="init" src="../../media/img/Ristorante-LaRuffa.jpg">
+                    <img id="img2" src="../../media/img/Ristorante-LaRuffa.jpg">
+                    <script>
+                        document.getElementById('img1').height = document.getElementById('img2').height;
+                    </script>
                     <h2>Ristorante La Ruffa Leonding</h2>
                 </a>
             </div>
@@ -53,10 +56,6 @@
 </body>
 
 <script>
-
-    function init() {
-        document.getElementById('img1').height = document.getElementById('img2').height;
-    }
     window.addEventListener("resize", () => {
         document.getElementById('img1').height = document.getElementById('img2').height;
     });
