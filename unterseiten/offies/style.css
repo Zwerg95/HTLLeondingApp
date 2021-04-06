@@ -11,7 +11,7 @@ header{
 }
 main{
     height: 75vh; 
-    background:#FAADAD url(../../media/img/front-bus_icon-icons.com_72746.png);
+    background:#c7c6ab url(../../media/img/front-bus_icon-icons.com_72746.png);
     background-repeat: repeat;
     background-position: bottom left;
     -webkit-animation: slide 180s linear infinite; 
@@ -33,7 +33,7 @@ main>div{
     text-align: center;
 }
 #button{
-    background-color: #ff7676; 
+    background-color: #c7c6ab; 
     width: 5vw;
     height: auto;
     padding: 2%;
