@@ -24,7 +24,7 @@ main>div{
     padding: 1%;
     position: absolute;
     background-color:#fd8f8f; 
-    box-shadow: #fd8f8f 0px 0px 10px;
+    box-shadow: #7c9483 0px 0px 10px;
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
@@ -33,7 +33,7 @@ main>div{
     text-align: center;
 }
 #button{
-    background-color: #c7c6ab; 
+    background-color: #7c9483; 
     width: 5vw;
     height: auto;
     padding: 2%;
@@ -45,7 +45,7 @@ main>div{
     box-sizing: border-box;
 }
 #button:hover{
-    background-color: #ff5e5e; 
+    background-color: #c7c6ab; 
     cursor: pointer;
 }
 
@@ -53,7 +53,7 @@ footer{
     height: 5vh;
 }
 #backbutton{
-    background-color: #ff7676;
+    background-color: #7c9483;
     width: auto;
     height: 2vh;
     padding: .5%;
