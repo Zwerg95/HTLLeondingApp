@@ -35,9 +35,6 @@
                     <img id="img2" src="../../media/img/Ristorante-LaRuffa.jpg">
                     <h2>Ristorante La Ruffa Leonding</h2>
                 </a>
-                <script>
-                    document.getElementById('img1').height = document.getElementById('img2').height;
-                </script>
             </div>
             <div class="restImgs">
                 <a href="https://www.asiarestaurant-taifun.at/">
@@ -59,6 +56,10 @@
     window.addEventListener("resize", () => {
         document.getElementById('img1').height = document.getElementById('img2').height;
     });
+    
+    document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('img1').height = document.getElementById('img2').height;
+    }, false);
 
     let elements = document.getElementsByClassName('restImgs');
     document.getElementsByClassName('fa-chevron-left')[0].addEventListener('click', () => {
