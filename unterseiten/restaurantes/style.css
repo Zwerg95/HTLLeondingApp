@@ -66,6 +66,6 @@ footer {
         --img-size: 100vw;
     }
     header {
-        width: 20vh;
+        height: 20vh;
     }
 }
