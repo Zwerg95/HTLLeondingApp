@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+title ERD Tourismus App
+class Route
+class Ausgangspunkt
+class Endpunkt
+class Verlauf
+class User
+
+class Sehenswürdigkeiten
+class Hotel
+class Restaurant
+class ÖffentlicheVerkehrsmittel
+abstract class Standort
+abstract class PointOfInterest
+
+Route *--|| Ausgangspunkt: > hat
+Route *--|| Endpunkt: > hat
+Route *--|| Verlauf: > hat
+User --o{ Route : folgt >
+User ||-- Route : ist zugeordnet <
+
+User }o--o| ÖffentlicheVerkehrsmittel: > benützt
+
+
+Endpunkt --|| Standort:  > hat
+Ausgangspunkt --|| Standort:  > hat
+
+ÖffentlicheVerkehrsmittel --o Route
+
+Standort ||-- PointOfInterest: < hat
+
+Sehenswürdigkeiten --|> PointOfInterest
+Hotel --|> PointOfInterest
+Restaurant --|> PointOfInterest
+
+@enduml
