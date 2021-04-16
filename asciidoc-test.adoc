@@ -566,3 +566,64 @@ od --> td
 io -- [MQTT Broker]
 s -- fm
 ----
+++++
+<style>
+td.tableblock {
+    margin: 0;
+    padding: 0;
+}
+td.tableblock p {
+    padding: 0.5rem;
+}
+td.tableblock .bg-yellow p {
+    background-color: yellow;
+}
+td.tableblock .bg-green p {
+    background-color: lime;
+}
+td.tableblock .bg-pink p {
+    background-color: pink;
+}
+td.tableblock .bg-blue p {
+    background-color: RGB(96,197,241);
+}
+</style>
+++++
+
+[cols="^1a,^4a,^1a,^4a,^1a,^2a,^1a,^1a,^1a"]
+|===
+|
+[.bg-green]
+11
+
+|
+[.bg-green]
+872349ae
+
+|
+[.bg-yellow]
+11
+
+|
+[.bg-yellow]
+TxID
+
+|
+[.bg-pink]
+10
+
+|
+[.bg-pink]
+4002
+
+|
+[.bg-blue]
+0f
+
+|
+[.bg-blue]
+04
+
+| 14!
+
+|===
