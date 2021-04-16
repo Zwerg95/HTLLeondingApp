@@ -65,4 +65,7 @@ footer {
     :root {
         --img-size: 100vw;
     }
+    header {
+        width: 20vh;
+    }
 }
