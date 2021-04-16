@@ -1,8 +1,34 @@
+= Anforderungen
+
+++++
+<style>
+td.tableblock {
+    margin: 0;
+    padding: 0;
+}
+td.tableblock p {
+    padding: 0.5rem;
+}
+td.tableblock .bg-yellow p {
+    background-color: yellow;
+}
+td.tableblock .bg-green p {
+    background-color: lime;
+}
+td.tableblock .bg-pink p {
+    background-color: pink;
+}
+td.tableblock .bg-blue p {
+    background-color: RGB(96,197,241);
+}
+</style>
+++++
+
 Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des vorgegebenen Stichwortes, ähnlich wie beim vorgegebenen Beispiel "Lokalisierung".
 
 |Name|Nutzer|Stichwort|Funktional?|Ausformulierte Anforderung|Agile Anforderung|
 |-|-|-|-|-|-|
-|Knoll Simon|IT180199|Restaurants|F|lle Sehenswürdigkeiten	werden in eine Region gefiltert|-|
+|[.bg-green]Knoll Simon|IT180199|Restaurants|F|lle Sehenswürdigkeiten	werden in eine Region gefiltert|-|
 |Brunner Daniel|dlp9664|Unterkünfte|F| Man sollte alle Unterkünfte in der Nähe sehen und auch den Preis. Als Nutzer dieser App will ich darüber informiert werden, welche Unterkünfte WANN und WO verfügbar sind und OB diese aktuell verfügbar sind.|Als User erwarte ich, jederzeit alle Hotels und Pensionen in der Nähe sehen zu können, um eine Unterkunft zu finden.|
 |Precup David|it180211|Sehenswürdigkeiten|F|Man muss für jede Sehenswürdigkeit eine Region einteilen um Sie dann per Suchfunktion oder per Navigierung zu erreichen. Dazu werden Datenbanken für die Speicherung von den Sehenswürdigkeiten benötigt.|Als User der App / Webseite erwarte ich mir Sehenswürdigkeiten bei Relevanz und Regionen zu filtern.|
 |Halilovic Ema|emaemaxd|Öffentliche Verkehrsmittel|F|Man soll nach bestimmten Stationen suchen können, dann werden nur Verbindungen zu genau der Station angezeigt. Als Nutzer dieser App will ich darüber informiert werden welche öffentlichen Verkehrsmittel WANN und WO verfügbar sind und OB diese aktuell verfügbar sind.|||
