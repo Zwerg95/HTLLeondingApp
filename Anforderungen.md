@@ -1,4 +1,4 @@
-= Anforderungen
+# Anforderungen
 
 Jede*r Schüler*in beschreibt eine Anforderung für die TourismusApp anhand des vorgegebenen Stichwortes, ähnlich wie beim vorgegebenen Beispiel "Lokalisierung".
 
