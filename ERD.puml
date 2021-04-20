@@ -8,12 +8,46 @@ class Endpunkt
 class Verlauf
 class User
 
-class Sehenswürdigkeiten
+class Sehenswuerdigkeiten {
+
+}
+
+class Kategorie{
+    int ID 
+    String bezeichnung
+    int typeOfPOI
+}
 class Hotel
-class Restaurant
-class ÖffentlicheVerkehrsmittel
-abstract class Standort
-abstract class PointOfInterest
+class Restaurant {
+Speisekarte speisekarte
+int hauben 
+}
+class OeffentlicheVerkehrsmittel
+class Standort {
+double xKoordinate
+double yKoordinate
+Adresse adresse
+String adresszusatz
+}
+abstract class PointOfInterest {
+int ID
+String name
+float bewertung
+Standort standort 
+}
+
+class Adresse{
+int lokationsID
+int PLZ
+String ort 
+String strasse 
+String hausnr
+int stiege
+int stock 
+int tuer 
+}
+
+Kategorie }o--o PointOfInterest
 
 Route *--|| Ausgangspunkt: > hat
 Route *--|| Endpunkt: > hat
@@ -21,18 +55,17 @@ Route *--|| Verlauf: > hat
 User --o{ Route : folgt >
 User ||-- Route : ist zugeordnet <
 
-User }o--o| ÖffentlicheVerkehrsmittel: > benützt
+User }o--o| OeffentlicheVerkehrsmittel: > benützt
 
-
+Adresse ||--o Standort
 Endpunkt --|| Standort:  > hat
 Ausgangspunkt --|| Standort:  > hat
 
-ÖffentlicheVerkehrsmittel --o Route
+OeffentlicheVerkehrsmittel --o Route
 
 Standort ||-- PointOfInterest: < hat
 
-Sehenswürdigkeiten --|> PointOfInterest
+Sehenswuerdigkeiten --|> PointOfInterest
 Hotel --|> PointOfInterest
 Restaurant --|> PointOfInterest
-
 @enduml
