@@ -1,0 +1,78 @@
+CREATE TABLE user  (
+	person_id INTEGER PRIMARY KEY AUTOINCREMENT
+);
+
+
+CREATE TABLE oeffentlicheverkehrsmittel  (
+	verkehrsmittel_id INTEGER PRIMARY KEY AUTOINCREMENT
+
+);
+
+CREATE TABLE route(
+route_id INTEGER PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE ausgangspunkt (
+	ausgangspunkt_id INTEGER PRIMARY KEY AUTOINCREMENT
+
+);
+
+CREATE TABLE endpunkt (
+	endpunkt_id INTEGER PRIMARY KEY AUTOINCREMENT
+
+);
+
+CREATE TABLE verlauf (
+	verlauf_id INTEGER PRIMARY KEY AUTOINCREMENT
+
+);
+
+CREATE TABLE adresse (
+	adresse_id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+    lokationsID INTEGER,
+    plz INTEGER,
+    ort TEXT,
+    strasse TEXT,
+    stiege INTEGER,
+    stock INTEGER,
+    tuer INTEGER
+
+);
+CREATE TABLE teilstrecke (
+	teilstrecke_id INTEGER PRIMARY KEY AUTOINCREMENT
+    
+
+);
+
+CREATE TABLE flusstrecke (
+	flusstrecke_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    distanz INTEGER
+
+);
+
+
+CREATE TABLE oeffistrecke (
+	oeffistrecke_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    linie TEXT
+
+);
+
+CREATE TABLE linie (
+	linie_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fahrplan TEXT
+
+);
+
+CREATE TABLE haltestelle (
+	haltestelle_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    standort TEXT
+);
+
+CREATE TABLE haltestelle (
+	haltestelle_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    standort TEXT
+
+);
