@@ -9,7 +9,7 @@ class Verlauf
 class User
 
 class Sehenswuerdigkeiten {
-
+    String beschreibung
 }
 
 class Kategorie{
@@ -17,34 +17,66 @@ class Kategorie{
     String bezeichnung
     int typeOfPOI
 }
-class Hotel
+
+class Hotel{
+    int bettenAnzahl
+}
+
 class Restaurant {
-Speisekarte speisekarte
-int hauben 
+    Speisekarte speisekarte
+    int hauben 
 }
-class OeffentlicheVerkehrsmittel
+
+class OeffentlicheVerkehrsmittel 
+
 class Standort {
-double xKoordinate
-double yKoordinate
-Adresse adresse
-String adresszusatz
+    double xKoordinate
+    double yKoordinate
+    Adresse adresse
+    String adresszusatz
 }
+
 abstract class PointOfInterest {
-int ID
-String name
-float bewertung
-Standort standort 
+    int ID
+    String name
+    float bewertung
+    Standort standort 
+    String webseite
 }
 
 class Adresse{
-int lokationsID
-int PLZ
-String ort 
-String strasse 
-String hausnr
-int stiege
-int stock 
-int tuer 
+    int lokationsID
+    int PLZ
+    String ort 
+    String strasse 
+    String hausnr
+    int stiege
+    int stock 
+    int tuer 
+}
+
+class Haltestelle{
+    String name
+    Standort standort 
+}
+
+class TeilStrecke{
+    Teilstrecke davor
+    Teilstrecke danach
+    Haltestelle zielHaltestelle 
+    int dauer
+}
+
+class FussStrecke{
+    int distanz
+}
+
+class OeffiStrecke{
+    Linie linie
+}
+
+class Linie{
+    Fahrplan fahrplan
 }
 
 Kategorie }o--o PointOfInterest
@@ -64,8 +96,18 @@ Ausgangspunkt --|| Standort:  > hat
 OeffentlicheVerkehrsmittel --o Route
 
 Standort ||-- PointOfInterest: < hat
+Standort ||-- Haltestelle: < hat
+Verlauf }o--o{ Haltestelle
 
 Sehenswuerdigkeiten --|> PointOfInterest
 Hotel --|> PointOfInterest
 Restaurant --|> PointOfInterest
+
+TeilStrecke }|--* Verlauf
+TeilStrecke  --o| Haltestelle: > endet
+TeilStrecke |o-- TeilStrecke: folgt
+TeilStrecke |o-- TeilStrecke: geht vor
+TeilStrecke <|-- FussStrecke
+TeilStrecke <|-- OeffiStrecke
+OeffiStrecke --|{ Linie
 @enduml
