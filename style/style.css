@@ -137,14 +137,14 @@ header {
 
 /* Damit die 4 Boxen untereinander stehen */
   main{
-    /*flex-flow: column wrap;*/
+    flex-flow: row wrap;
   }
 
   main > div {
     width: 100vw;
     height: 25vh;
-    display: inline-block;
-    flex-wrap: no-wrap;
+    display: flex;
+    flex-wrap: wrap;
   }
   
  main > div > img {
