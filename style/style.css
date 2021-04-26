@@ -143,12 +143,12 @@ header {
   main > div {
     width: 100vw;
     height: 20vh;
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
   }
   
  main > div > img {
-   flex: 1 1 33%;
+   flex: 1 1 50%;
   /*width: 10vw;
   border-radius: 1vw;*/
 } 
