@@ -144,7 +144,7 @@ header {
     width: 100vw;
     height: 25vh;
     display: flex;
-    flex-wrap: no-wrap;
+    /*flex-wrap: no-wrap;*/
   }
   
  main > div > img {
