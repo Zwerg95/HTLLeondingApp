@@ -137,7 +137,7 @@ header {
 
 /* Damit die 4 Boxen untereinander stehen */
   main{
-    flex-flow: column wrap;
+    /*flex-flow: column wrap;*/
   }
 
   main > div {
