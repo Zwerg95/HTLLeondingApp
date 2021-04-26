@@ -148,8 +148,6 @@ header {
   }
   
  main > div > img {
-  flex: 1 1 33%;
-   
   width: 10vw;
   border-radius: 1vw;
 } 
