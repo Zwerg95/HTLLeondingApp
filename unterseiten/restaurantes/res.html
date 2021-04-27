@@ -58,7 +58,9 @@
     });
     
     document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('img1').height = document.getElementById('img2').height;
+        while (document.getElementById('img2') == undefined) {
+            document.getElementById('img1').height = document.getElementById('img2').height;
+        }
     }, false);
 
     let elements = document.getElementsByClassName('restImgs');
