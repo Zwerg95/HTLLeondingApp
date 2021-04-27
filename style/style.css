@@ -142,7 +142,7 @@ header {
 
   main > div {
     width: 50%;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     flex-wrap: wrap;
   }
