@@ -44,7 +44,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 header {
@@ -67,7 +67,7 @@ main {
 main > div {
   text-align: center;
   width: 25vw;
-  height: 75vh;
+  height: 73vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,6 +84,10 @@ main > div {
 }
 #c4 {
   background-color: #ADAD82;
+}
+
+#bed {
+width: 11vw !important;
 }
 
 footer {
@@ -159,7 +163,7 @@ header {
   
  footer{
    font-size: 1.5rem;
-   height: 8vh;
+   height: 6vh;
   }
 
 }
