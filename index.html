@@ -8,12 +8,25 @@
         <link rel="stylesheet" href="./style/style.css">
         <script src="https://kit.fontawesome.com/bd27afc184.js"
             crossorigin="anonymous" defer></script>
-        <script src="js/main.js" defer></script>
+        <script src="js/lang.js" defer></script>
     </head>
 
     <body>
         <header>
             <h1 id="main-title">Tourismus App <span class="orange">Le<span id="heart">❤</span>nding</span></h1>
+            <div class="select-lang">Sprache: <ul>
+                <li><b id="lang-header">Deutsch</b>
+                    <ul>
+                        <li onclick="loadLanguage('de')" id="de" class="lang"><i class="flag flag-de">
+                            <div id="germany"></div>
+                        </i><span>Deutsch</span></li>
+                        <li onclick="loadLanguage('en')" id="en" class="lang"><i class="flag flag-usa">
+                            <div id="usa"></div>
+                        </i><span>Englisch</span></li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
         </header>
 
         <main>
