@@ -67,7 +67,7 @@ main {
 main > div {
   text-align: center;
   width: 25vw;
-  height: 75vh;
+  height: 72vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +87,7 @@ main > div {
 }
 
 #bed {
-width: 13vw !important;
+width: 11vw !important;
 }
 
 footer {
