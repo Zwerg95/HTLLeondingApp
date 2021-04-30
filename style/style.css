@@ -86,6 +86,10 @@ main > div {
   background-color: #ADAD82;
 }
 
+#bed {
+width: 13vw !important;
+}
+
 footer {
   background-color: #4d4d4d;
   color: white;
@@ -159,7 +163,7 @@ header {
   
  footer{
    font-size: 1.5rem;
-   height: 8vh;
+   height: 6vh;
   }
 
 }
