@@ -9,7 +9,7 @@ lang = {
     }
 }
 
-loadlanguage("Deutsch");
+loadLanguage("Deutsch");
 
 // Only loads de package right now, will get changed in future
 function loadLanguage(lange) {
