@@ -9,10 +9,10 @@ lang = {
     }
 }
 
+loadLanguage('de');
+
 // Only loads de package right now, will get changed in future
 function loadLanguage(lange) {
     document.getElementById("lang-header").innerText = lang[lange]["lang-name"];
     document.getElementById("main-title").innerHTML = lang[lange]["main-title"];
 }
-
-loadLanguage('de');
