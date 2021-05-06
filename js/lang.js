@@ -9,6 +9,8 @@ lang = {
     }
 }
 
+loadlanguage("Deutsch");
+
 // Only loads de package right now, will get changed in future
 function loadLanguage(lange) {
     document.getElementById("lang-header").innerText = lang[lange]["lang-name"];
