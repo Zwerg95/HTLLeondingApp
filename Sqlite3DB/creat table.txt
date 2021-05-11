@@ -76,3 +76,39 @@ CREATE TABLE haltestelle (
     standort TEXT
 
 );
+
+CREATE TABLE standort {
+	standort:_id INTEGER PRIMARY KEY AUTOINCREMENT,
+	xkoordinate REAL,
+	ykoordinate REAL,
+	adresszusatz TEXT
+};
+
+CREATE TABLE pointOfInterest (
+  pointOfInterest_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  bewertung REAL,
+  website TEXT
+);
+
+CREATE TABLE restaurant (
+  pointOfInterest_id INTEGER FOREIGN KEY AUTOINCREMENT,
+  hauben INTEgER
+  );
+  
+ CREATE TABLE hotel (
+    pointOfInterest_id INTEGER FOREIGN KEY AUTOINCREMENT,
+    bettenAnzahl TEXT
+    );
+    
+  CREATE TABLE kategorie (
+      kategorie_id INTEGER PRIMARY KEY AUTOINCREMENT,
+      bezeichnung TEXT,
+      typeOfPOI TEXT
+      );
+  
+  CREATE TABLE sehenswuerdigkeiten (
+      pointOfInterest_id INTEGER FOREIGN KEY AUTOINCREMENT,
+      beschreibung TEXT
+      );
+      
