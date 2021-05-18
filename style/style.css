@@ -253,13 +253,13 @@ header {
 
 /* Damit die 4 Boxen untereinander stehen */
   main{
-    flex-flow: nowrap;
+    /*flex-flow: nowrap;*/
   }
 
   main > div {
     width: 50%;
     height: 40vh;
-    display: flex;
+    display: inline;
     /*flex-wrap: wrap;*/
   }
   
