@@ -122,12 +122,7 @@ main > div > img {
 }
 
 /* Media Queries */
-
-
-
-
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
   /* Damit man scrollen kann */
   body{
@@ -149,6 +144,123 @@ header {
     height: 40vh;
     display: flex;
     flex-wrap: wrap;
+  }
+  
+ main > div > img {
+  width: 3%;
+  border-radius: 1vw;
+} 
+  
+  #logo {
+  padding-right: 15vw;
+  width: 20vw;
+}
+  
+ footer{
+   font-size: 1.5rem;
+   height: 6vh;
+  }
+
+}
+
+.select-lang {
+  display: inline;
+  margin-top: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.select-lang ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+.select-lang li{
+  padding-bottom:10px;
+}
+
+.select-lang li ul {
+  display: none;
+}
+
+.select-lang li:hover ul {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  display: block;
+  background: #fff;
+  width: max-content;
+  z-index: 1;
+  border-radius:5px;
+}
+.select-lang li:hover .triangle {
+  position: absolute;
+  top: 15px;
+  right: -10px;
+  z-index:10;
+  height: 14px;
+  overflow:hidden;
+  width: 30px;
+  background: transparent;
+}
+
+.select-lang li ul li {
+  position: relative;
+  text-align: left;
+  background: transparent;
+  padding: 15px 15px 0;
+  z-index: 2;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+.select-lang li ul li:last-of-type {
+  padding-bottom: 15px;
+}
+.select-lang li ul li span {
+  padding-left: 5px;
+}
+
+.flag {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #aaa;
+  border-radius: 50%;
+  position: relative;
+  top: 2px;
+  overflow: hidden;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  /* Damit man scrollen kann */
+  body{
+    overflow-y: visible;
+  }
+
+  /* Header div bisschen kleiner */
+header {
+  height: 12vh;
+}
+
+/* Damit die 4 Boxen untereinander stehen */
+  main{
+    flex-flow: nowrap;
+  }
+
+  main > div {
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    /*flex-wrap: wrap;*/
   }
   
  main > div > img {
