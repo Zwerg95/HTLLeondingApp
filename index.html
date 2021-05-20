@@ -1,70 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tourismus App</title>
-        <link rel="stylesheet" href="./style/style.css">
-        <script src="https://kit.fontawesome.com/bd27afc184.js"
-            crossorigin="anonymous" defer></script>
+        <link rel="stylesheet" href="./style/style.css" />
+        <script
+            src="https://kit.fontawesome.com/bd27afc184.js"
+            crossorigin="anonymous"
+            defer
+        ></script>
         <script src="js/lang.js" defer></script>
+        <script src="js/location.js"></script>
     </head>
 
     <body>
         <header>
             <h1 id="main-title"></h1>
-            <div class="select-lang">Sprache: <ul>
-                <li><b id="lang-header">Deutsch</b>
-                    <ul>
-                        <li onclick="loadLanguage('de')" id="de" class="lang"><i class="flag flag-de">
-                            <div id="germany"></div>
-                        </i><span>Deutsch</span></li>
-                        <li onclick="loadLanguage('en')" id="en" class="lang"><i class="flag flag-usa">
-                            <div id="usa"></div>
-                        </i><span>Englisch</span></li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="select-lang">
+                Sprache:
+                <ul>
+                    <li>
+                        <b id="lang-header">Deutsch</b>
+                        <ul>
+                            <li
+                                onclick="loadLanguage('de')"
+                                id="de"
+                                class="lang"
+                            >
+                                <i class="flag flag-de">
+                                    <div id="germany"></div> </i
+                                ><span>Deutsch</span>
+                            </li>
+                            <li
+                                onclick="loadLanguage('en')"
+                                id="en"
+                                class="lang"
+                            >
+                                <i class="flag flag-usa">
+                                    <div id="usa"></div> </i
+                                ><span>Englisch</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </header>
 
         <main>
             <div id="c1">
-                <a href="unterseiten/unterkünfte/unterkünfte.html"><img
-                        class="placeholder" id="bed" src="media/img/Hotel-Room_43669.png"
-                        alt="placeholder"></a>
+                <a href="unterseiten/unterkünfte/unterkünfte.html"
+                    ><img
+                        class="placeholder"
+                        id="bed"
+                        src="media/img/Hotel-Room_43669.png"
+                        alt="placeholder"
+                /></a>
             </div>
 
             <div id="c2">
-                <a href="unterseiten/sehenswürdigkeiten/seh.html"> <img
+                <a href="unterseiten/sehenswürdigkeiten/seh.html">
+                    <img
                         class="placeholder"
                         src="./media/img/031church_114181.png"
-                        alt="placeholder"></a>
+                        alt="placeholder"
+                /></a>
             </div>
-
 
             <div id="c3">
                 <a href="unterseiten/offies/offies.html">
-                    <img class="placeholder"
+                    <img
+                        class="placeholder"
                         src="media/img/front-bus_icon-icons.com_72746.png"
-                        alt="placeholder"> </a>
+                        alt="placeholder"
+                    />
+                </a>
             </div>
             <div id="c4">
                 <a href="unterseiten/restaurantes/res.html">
-                    <img class="placeholder"
+                    <img
+                        class="placeholder"
                         src="./media/img/019plate1_113745.png"
-                        alt="placeholder">
+                        alt="placeholder"
+                    />
                 </a>
             </div>
-
         </main>
 
         <footer>
-            <img id="logo" src="./media/img/htllogo.png" alt="HTL Leonding
-                Logo">
+            <img
+                id="logo"
+                src="./media/img/htllogo.png"
+                alt="HTL Leonding
+                Logo"
+            />
             <p>3BHITM 2&copy;2&copy;/21</p>
         </footer>
     </body>
-
 </html>

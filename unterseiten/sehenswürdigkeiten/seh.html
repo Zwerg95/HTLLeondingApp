@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tourismus App</title>
-        <link rel="stylesheet" href="../../style/style.css">
-        <script src="https://kit.fontawesome.com/bd27afc184.js"
-            crossorigin="anonymous" defer></script>
+        <link rel="stylesheet" href="../../style/style.css" />
+        <script
+            src="https://kit.fontawesome.com/bd27afc184.js"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <script src="js/location.js"></script>
     </head>
 
     <style>
         body {
-         box-sizing: border-box;
-         background-color: #C8E5F9;
-        }    
+            box-sizing: border-box;
+            background-color: #c8e5f9;
+        }
         div {
             padding-left: 20%;
-            padding-right:20%;
-            padding-bottom:2%;
+            padding-right: 20%;
+            padding-bottom: 2%;
         }
 
         .button {
@@ -34,91 +37,133 @@
             border: none;
             border-radius: 15px;
             box-shadow: 0 9px #999;
-}
+        }
 
-        .button:hover {background-color: rgb(6, 41, 82)}
+        .button:hover {
+            background-color: rgb(6, 41, 82);
+        }
 
         .button:active {
             background-color: rgb(6, 41, 82);
             box-shadow: 0 5px #666;
             transform: translateY(4px);
-}
-header {
+        }
+        header {
             display: grid;
             grid-template-columns: 10vw 1fr;
             justify-items: center;
         }
 
-        header a  i{
+        header a i {
             color: white;
         }
-
     </style>
     <body>
         <header>
             <a href="../../index.html">
                 <i class="fas fa-home"></i>
             </a>
-            <h1>Tourismus App <span class="orange">Le<span id="heart">❤</span>nding</span></h1>
+            <h1>
+                Tourismus App
+                <span class="orange">Le<span id="heart">❤</span>nding</span>
+            </h1>
         </header>
-                
-            
-                <h1>L E O N D I N G </h1>
-                <div id="box1">
-                    <h2> HTBLA Leonding </h2>
-                    <img src="">
-                    <p>Die Höhere technische Bundeslehranstalt Leonding ist eine vom Bund betriebene berufsbildende höhere Schule
-                    in Leonding, Oberösterreich. An der Schule arbeiten über 100 Lehrer. Der Zweig für EDV und Organisation entstand 1985. In den Jahren 
-                    2001/02 wurde das Schulgebäude erweitert, um in andere Schulen ausgelagerte Klassen wieder im Hauptgebäude aufnehmen zu können.
-                    Die in den letzten Jahren neu entstandene HTL in Perg geht auf eine Expositur der HTL Leonding zurück, ebenso 
-                    die HTL in Traun auf dorthin dislozierte Klassen. Auch die FH Hagenberg entwickelte sich aus der HTL Leonding.</p>
 
-                    <a  class="button" href="https://www.htl-leonding.at/ueber-uns/standort/"> Standort </a>
-                </div>
+        <h1>L E O N D I N G</h1>
+        <div id="box1">
+            <h2>HTBLA Leonding</h2>
+            <img src="" />
+            <p>
+                Die Höhere technische Bundeslehranstalt Leonding ist eine vom
+                Bund betriebene berufsbildende höhere Schule in Leonding,
+                Oberösterreich. An der Schule arbeiten über 100 Lehrer. Der
+                Zweig für EDV und Organisation entstand 1985. In den Jahren
+                2001/02 wurde das Schulgebäude erweitert, um in andere Schulen
+                ausgelagerte Klassen wieder im Hauptgebäude aufnehmen zu können.
+                Die in den letzten Jahren neu entstandene HTL in Perg geht auf
+                eine Expositur der HTL Leonding zurück, ebenso die HTL in Traun
+                auf dorthin dislozierte Klassen. Auch die FH Hagenberg
+                entwickelte sich aus der HTL Leonding.
+            </p>
 
-                <div id="box2">
-                    <h2> Pfaarkirche Leonding</h2>
-                    <img src="">
-                    <p>Die Pfarrkirche Leonding steht im Ort Leonding in der Stadtgemeinde Leonding in Oberösterreich. Die
-                    römisch-katholische Pfarrkirche hl. Michael gehört zum Dekanat Traun in der Diözese Linz. Die Kirche,
-                    der Kirchhof, der Friedhof und das Kriegerdenkmal stehen unter Denkmalschutz.
-                    Die Kirche wurde 1234 urkundlich genannt. Die einfache im Kern gotische Kirche wurde um die Mitte des 17.
-                    Jahrhunderts umgebaut. Die Kirche wurde 1951 restauriert.</p>
+            <a
+                class="button"
+                href="https://www.htl-leonding.at/ueber-uns/standort/"
+            >
+                Standort
+            </a>
+        </div>
 
-                    <a class="button" href="https://www.google.com/maps/place/Pfarramt+Leonding+-+St.+Michael/@48.2798283,14.2492089,15z/data=!4m5!3m4!1s0x0:0xc21b1324fbc7d2d9!8m2!3d48.2798283!4d14.2492089"> Standort </a>
-                </div>
+        <div id="box2">
+            <h2>Pfaarkirche Leonding</h2>
+            <img src="" />
+            <p>
+                Die Pfarrkirche Leonding steht im Ort Leonding in der
+                Stadtgemeinde Leonding in Oberösterreich. Die
+                römisch-katholische Pfarrkirche hl. Michael gehört zum Dekanat
+                Traun in der Diözese Linz. Die Kirche, der Kirchhof, der
+                Friedhof und das Kriegerdenkmal stehen unter Denkmalschutz. Die
+                Kirche wurde 1234 urkundlich genannt. Die einfache im Kern
+                gotische Kirche wurde um die Mitte des 17. Jahrhunderts
+                umgebaut. Die Kirche wurde 1951 restauriert.
+            </p>
 
-                <h1>U M G E B U N G</h1>
+            <a
+                class="button"
+                href="https://www.google.com/maps/place/Pfarramt+Leonding+-+St.+Michael/@48.2798283,14.2492089,15z/data=!4m5!3m4!1s0x0:0xc21b1324fbc7d2d9!8m2!3d48.2798283!4d14.2492089"
+            >
+                Standort
+            </a>
+        </div>
 
-                <div id="box3">
-                    <h2> Pöstling Berg</h2>
-                    <img src="">
-                    <p>Der Pöstlingberg ist ein wundervolles Ziel zu jeder Jahreszeit. Besonders für Kinder ist ein Ausflug zur
-                    Erlebniswelt Pöstlingberg eine tolle Sache. 539 Meter erhebt er sich über der österreichischen Stadt Linz
-                    und ermöglicht so herrliche Aussichten und abwechslungsreiche Aktivitäten.
-                    Du erreichst den Pöstlingberg ganz einfach mit der modernisierten Pöstlingbergbahn, der steilsten 
-                    Adhäsionsbahn Europas. </p>
+        <h1>U M G E B U N G</h1>
 
-                    <a class="button" href="https://www.google.com/maps/place/P%C3%B6stlingberg/@48.3238881,14.2495782,15z/data=!3m1!4b1!4m5!3m4!1s0x477399e7cddc96bd:0xff346ff8be0166de!8m2!3d48.323889!4d14.258333"> Standort </a>
+        <div id="box3">
+            <h2>Pöstling Berg</h2>
+            <img src="" />
+            <p>
+                Der Pöstlingberg ist ein wundervolles Ziel zu jeder Jahreszeit.
+                Besonders für Kinder ist ein Ausflug zur Erlebniswelt
+                Pöstlingberg eine tolle Sache. 539 Meter erhebt er sich über der
+                österreichischen Stadt Linz und ermöglicht so herrliche
+                Aussichten und abwechslungsreiche Aktivitäten. Du erreichst den
+                Pöstlingberg ganz einfach mit der modernisierten
+                Pöstlingbergbahn, der steilsten Adhäsionsbahn Europas.
+            </p>
 
-                </div>
+            <a
+                class="button"
+                href="https://www.google.com/maps/place/P%C3%B6stlingberg/@48.3238881,14.2495782,15z/data=!3m1!4b1!4m5!3m4!1s0x477399e7cddc96bd:0xff346ff8be0166de!8m2!3d48.323889!4d14.258333"
+            >
+                Standort
+            </a>
+        </div>
 
-                <div id="box4">
-                    <h2> Linzer Hauptplatz</h2>
-                    <img src="">
-                    <p>Der Linzer Hauptplatz ist das Stadtzentrum von Linz und mit 13.140 m² einer der größten umbauten Plätze
-                    Österreichs. Er wird nur durch eine Straße und die Gebäude am Brückenkopf von der Donau getrennt.</p>
-                    <a class="button" href="https://www.google.com/maps/place/Hauptplatz+Linz/@48.3057601,14.2845411,17z/data=!3m1!4b1!4m5!3m4!1s0x47739719dfa50243:0xeecd03e396b6c102!8m2!3d48.3057601!4d14.2867299"> Standort </a>
-
-                </div>
-
-
+        <div id="box4">
+            <h2>Linzer Hauptplatz</h2>
+            <img src="" />
+            <p>
+                Der Linzer Hauptplatz ist das Stadtzentrum von Linz und mit
+                13.140 m² einer der größten umbauten Plätze Österreichs. Er wird
+                nur durch eine Straße und die Gebäude am Brückenkopf von der
+                Donau getrennt.
+            </p>
+            <a
+                class="button"
+                href="https://www.google.com/maps/place/Hauptplatz+Linz/@48.3057601,14.2845411,17z/data=!3m1!4b1!4m5!3m4!1s0x47739719dfa50243:0xeecd03e396b6c102!8m2!3d48.3057601!4d14.2867299"
+            >
+                Standort
+            </a>
+        </div>
 
         <footer>
-            <img id="logo" src="../../media/img/htllogo.png" alt="HTL Leonding
-                Logo">
+            <img
+                id="logo"
+                src="../../media/img/htllogo.png"
+                alt="HTL Leonding
+                Logo"
+            />
             <p>3BHITM 2&copy;2&copy;/21</p>
         </footer>
     </body>
-
 </html>
