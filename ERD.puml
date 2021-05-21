@@ -6,11 +6,15 @@ class Route
 class Ausgangspunkt
 class Endpunkt
 class Verlauf
-class User
+
+class User {
+    Standort aktStandort
+}
 
 class Sehenswuerdigkeiten {
     String beschreibung
 }
+
 
 class Kategorie{
     int ID 
@@ -34,6 +38,7 @@ class Standort {
     double yKoordinate
     Adresse adresse
     String adresszusatz
+    int luftlinie(Standort ziel)
 }
 
 abstract class PointOfInterest {
