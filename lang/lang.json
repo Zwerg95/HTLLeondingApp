@@ -1,8 +1,30 @@
 {
     "de": {
-        "main-title": "Tourismus App Leonding"
+        "main-title": 
+        "Tourismus App Leonding"
     },
     "en": {
-        "main-title": "Tourism App Leonding"
+        "main-title": 
+        "Tourism App Leonding"
+    }
+    
+    "de": {
+        "sights-HTBLA":
+        "Die Höhere technische Bundeslehranstalt Leonding ist eine vom Bund betriebene berufsbildende höhere Schule in Leonding, Oberösterreich. An der Schule arbeiten über 100 Lehrer. Der Zweig für EDV und Organisation entstand 1985. In den Jahren 2001/02 wurde das Schulgebäude erweitert, um in andere Schulen ausgelagerte Klassen wieder im Hauptgebäude aufnehmen zu können. Die in den letzten Jahren neu entstandene HTL in Perg geht auf eine Expositur der HTL Leonding zurück, ebenso die HTL in Traun auf dorthin dislozierte Klassen. Auch die FH Hagenberg entwickelte sich aus der HTL Leonding."
+    }
+    
+    "en": {
+        "sights-HTBLA":
+        "The Higher Technical College Leonding is a federally run vocational training institute secondary school in Leonding, Upper Austria. Over 100 teachers work at the school. The branch for IT and organization was created in 1985. In 2001/02 the school building was expanded, in order to be able to resume classes transferred to other schools in the main building. The HTL in Perg, which has been newly established in recent years, is now part of a branch of the HTL Leonding back, as well as the HTL in Traun on classes displaced there. Also the FH Hagenberg developed from the HTL Leonding."
+    }
+    
+    "de": {
+        "sights-Pfarrkirche": 
+        "Die Pfarrkirche Leonding steht im Ort Leonding in der Stadtgemeinde Leonding in Oberösterreich. Die römisch-katholische Pfarrkirche hl. Michael gehört zum Dekanat Traun in der Diözese Linz. Die Kirche, der Kirchhof, der Friedhof und das Kriegerdenkmal stehen unter Denkmalschutz. Die Kirche wurde 1234 urkundlich genannt. Die einfache im Kern gotische Kirche wurde um die Mitte des 17. Jahrhunderts umgebaut. Die Kirche wurde 1951 restauriert."
+    }
+
+    "en": {
+        "sights-Pfarrkirche": 
+        "The parish church of Leonding is located in Leonding in the municipality of Leonding in Upper Austria. The Roman Catholic parish church of St. Michael belongs to the dean's office in Traun in the diocese of Linz. The church, the churchyard, the cemetery and the war memorial are under monument protection. The church was mentioned in a document in 1234. The simple Gothic church was rebuilt around the middle of the 17th century. The church was restored in 1951."
     }
 }
