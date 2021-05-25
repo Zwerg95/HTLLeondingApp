@@ -98,3 +98,34 @@ h2{
         display: none;
     }
 }
+
+#standort{
+    float:right;
+}
+
+
+h4{
+    color:white;
+    font-size:50px;
+}
+
+#calculate{
+
+    background-color: #7c9483;
+    width: auto;
+    height: 2vh;
+    padding: .5%;
+    left: 2%; 
+    color: #fff;
+    text-decoration: none;
+    box-sizing: content-box;
+    border-radius: 20px;
+
+}
+
+#back{
+    float:left;
+    color:white;
+    font-size:40px;
+    margin-left:10px;
+}
