@@ -78,3 +78,23 @@ footer{
 h2{
     font-size: 2em;
 }
+
+#location {
+    width: 13vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin-left: 5vw;
+}
+#location i {
+    font-size: 2rem;
+}
+#location p {
+    margin: 0 0 0 0.5vw;
+}
+
+@media only screen and (max-width: 500px) {
+    #location {
+        display: none;
+    }
+}
