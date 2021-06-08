@@ -9,6 +9,7 @@
     <script src="../../js/location.js"></script>
     <title>Standort</title>
 </head>
+
 <body>
     <header>
         <h1>Route berechnen</h1>
@@ -17,27 +18,31 @@
 
     <main>
 
+
         <div id="berechnen">
             <a href="offies.html">
                <p id="back">←</p> 
             </a>
-            
-            <br>
-            <br>
+
             <h4>Standort 1</h4>
-            <input type="text" placeholder="x" id="standortx1">
-            <input type="text" placeholder="y" id="standorty1">
+            <input type="text" placeholder="länge" id="standortx1">
+            <input type="text" placeholder="breite" id="standorty1">
             <br>
+            <br>
+            <button id="getLocation" onclick="loadOwnLocation()">eigener Standort</button>
             <h4>Standort 2</h4>
-            <input typ="text" placeholder="x" id="standortx2">
-            <input type="text" placeholder="y" id="standorty2">
-            <br>
-            <br>
+            <input type="text" placeholder="länge" id="standortx2">
+            <input type="text" placeholder="breite" id="standorty2">
             <br>
             <br>
             <button id="calculate" onclick="getDistance()">Berechnen</button>
+            <br>
+            <br>
+            <div id="entfernung">
+            </div>
         </div>
     </main>
+
 
     <a id="backbutton" href="../../index.html">home</a>
 
