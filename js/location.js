@@ -30,6 +30,16 @@ async function getUserLocation(user) {
     return `Lat: ${user.lat.toFixed(5)}, Long: ${user.long.toFixed(5)}`;
 }
 
+function loadOwnLocation(){
+getUserLocation().then(function(user){
+console.log(user.lat);
+document.getElementById("standortx1").value = user.lat;
+console.log(user.length);
+document.getElementById("standorty1").value = user.length;
+});
+
+}
+
 function getUser() {
     return new Promise((resolve) => {
         loadGeoLocation(
@@ -91,6 +101,8 @@ function getDistance() {
     let dist = (dist1 + dist2) / 2;
 
     console.log(dist);
+    document.getElementById('entfernung').innerHTML = dist;
 
     return dist;
 }
+
