@@ -123,9 +123,36 @@ h4{
 
 }
 
+#getLocation{
+
+    background-color: #7c9483;
+    width: auto;
+    height: 2vh;
+    padding: .5%;
+    left: 2%; 
+    color: #fff;
+    text-decoration: none;
+    box-sizing: content-box;
+    border-radius: 20px;
+
+}
+
 #back{
     float:left;
     color:white;
     font-size:40px;
     margin-left:10px;
+}
+
+#entfernung{
+    font-family: monospace;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+input[type=text]{
+    width:20%;
+    height:7%;
+    padding-left:2%;
 }
