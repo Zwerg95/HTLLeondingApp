@@ -66,10 +66,10 @@ function loadOwnLocation(){
         //Gesamte User Locatio
         console.log(user);
         //Länge
-        let userLat = (Math.round(user.lat * 1000) / 1000);
+        let userLat = (Math.round(user.lat * 100000) / 100000);
         document.getElementById('standortx1').value = userLat;
         //Breite
-        let userLong = (Math.round(user.long * 1000) / 1000);
+        let userLong = (Math.round(user.long * 100000) / 100000);
         document.getElementById('standorty1').value = userLong;
         //Überprüfung der Ausgabe
         console.log(userLat);
@@ -109,10 +109,10 @@ function getDistance() {
     );
     let dist = (dist1 + dist2) / 2;
 
-    let last = (Math.round(dist * 1000) / 1000);
+    let last = (Math.round(dist * 100000) / 100000);
 
     console.log(last);
-    document.getElementById('entfernung').innerHTML = last;
+    document.getElementById('entfernung').innerHTML = last + " km";
 
     return last;
 }
