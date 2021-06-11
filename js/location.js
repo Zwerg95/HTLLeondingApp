@@ -21,6 +21,7 @@ function loadGeoLocation(success, error, loaded) {
     }
 }
 
+
 async function getUserLocation(user) {
     if (!user)
         user = await getUser();
@@ -28,16 +29,6 @@ async function getUserLocation(user) {
         return user.error;
     }
     return `Lat: ${user.lat.toFixed(5)}, Long: ${user.long.toFixed(5)}`;
-}
-
-function loadOwnLocation(){
-getUserLocation().then(function(user){
-console.log(user.lat);
-document.getElementById("standortx1").value = user.lat;
-console.log(user.length);
-document.getElementById("standorty1").value = user.length;
-});
-
 }
 
 function getUser() {
@@ -68,6 +59,24 @@ if (window.location.href.includes("offies.html")) {
         })
     };
 }
+
+
+function loadOwnLocation(){
+    getUser().then((user) => {
+        //Gesamte User Locatio
+        console.log(user);
+        //Länge
+        let userLat = (Math.round(user.lat * 1000) / 1000);
+        document.getElementById('standortx1').value = userLat;
+        //Breite
+        let userLong = (Math.round(user.long * 1000) / 1000);
+        document.getElementById('standorty1').value = userLong;
+        //Überprüfung der Ausgabe
+        console.log(userLat);
+        console.log(userLong);
+      });
+    
+    }
 
 function getDistance() {
 
@@ -100,9 +109,11 @@ function getDistance() {
     );
     let dist = (dist1 + dist2) / 2;
 
-    console.log(dist);
-    document.getElementById('entfernung').innerHTML = dist;
+    let last = (Math.round(dist * 1000) / 1000);
 
-    return dist;
+    console.log(last);
+    document.getElementById('entfernung').innerHTML = last;
+
+    return last;
 }
 
