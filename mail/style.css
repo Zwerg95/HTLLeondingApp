@@ -78,4 +78,5 @@
     #messageBox {
             background-color: white;
             padding: 5%;
+            display: none;
         }
