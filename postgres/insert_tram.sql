@@ -28,6 +28,24 @@ insert into Haltestelle(name, standort) values('Trauner Kreuzung', 20);
 
 insert into linie(name) values('3');
 
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(13, 14, 6, null);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(14, 15, 1, 13);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(15, 16, 6, 14);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(16, 17, 4, 15);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(17, 18, 5, 16);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(18, 19, 7, 17);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor, danach) values(19, 20, 3, 18, null);
+
+update teilstrecke set danach = 14 where id = 7;
+update teilstrecke set danach = 15 where id = 8;
+update teilstrecke set danach = 16 where id = 9;
+update teilstrecke set danach = 17 where id = 10;
+update teilstrecke set danach = 18 where id = 11;
+update teilstrecke set danach = 19 where id = 12;
+update teilstrecke set danach = 20 where id = 13;
+
+update teilstrecke set oe_linie = '3' where 1 = 1;
+
 /*Linie 4*/
 insert into Adresse(plz, ort, strasse) values(4040, 'Linz', 'Landgutstraße');
 insert into Adresse(plz, ort, strasse) values(4020, 'Linz', 'Hauptplatz');
@@ -57,3 +75,21 @@ insert into Haltestelle(name, standort) values('Trauner Kreuzung', 27);
 insert into Haltestelle(name, standort) values('Schloss Traun', 28);
 
 insert into linie(name) values('4');
+
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(21, 22, 6, null);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(22, 23, 1, 21);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(23, 24, 6, 22);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(24, 25, 9, 23);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(25, 26, 7, 24);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor) values(26, 27, 3, 25);
+insert into TeilStrecke(startHaltestelle, zielHaltestelle, dauer, davor, danach) values(27, 28, 5, 26, null);
+
+update teilstrecke set danach = 22 where id = 14;
+update teilstrecke set danach = 23 where id = 15;
+update teilstrecke set danach = 24 where id = 16;
+update teilstrecke set danach = 25 where id = 17;
+update teilstrecke set danach = 26 where id = 18;
+update teilstrecke set danach = 27 where id = 19;
+update teilstrecke set danach = 28 where id = 20;
+
+update teilstrecke set oe_linie = '4' where 1 = 1;
