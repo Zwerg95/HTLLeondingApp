@@ -90,4 +90,9 @@
     body {
         flex-flow: column nowrap;
     }
+    
+    input {
+        width: 65vw;
+    }
+    
 }
