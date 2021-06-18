@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tourismus App Kontakt</title>
+</head>
+
+<body>
+    <div id="formBox">
+        <h1>Kontaktanfrage</h1>
+        <h2>Haben Sie eine Frage, oder einen Verbesserungsvorschlag?</h2>
+        <p>Füllen Sie einfach das untenstehende Formular aus!<br>Sie bekommen eine Antwort innerhalb 2-3 Tagen.</p>
+        <p id="pflichtinfo">* Pflichtfelder</p>
+        <form id="contactForm" name="contactForm">
+            <label for="sn">Ihr Name<span class="rstar">*</span></label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="emr">Ihre Mail<span class="rstar">*</span></label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="content">Nachricht<span class="rstar">*</span></label><br>
+            <textarea id="content" name="content" cols="40" rows="5"></textarea>
+        </form>
+        <div id="buttonBox">
+            <div id="button_send">Senden</div><br>
+            <div id="button_back">Zurück zur App</div>
+        </div>
+    </div>
+    <div id="messageBox">&nbsp;</div>
+    <script src="mailer.js" defer></script>
+</body>
+
+</html>
