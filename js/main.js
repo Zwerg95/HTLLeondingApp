@@ -4,3 +4,10 @@ var json = require('../lang/lang.json');
 function loadLanguage(){
 
 }
+
+let contactButton = document.getElementById('contact');
+
+contactButton.style.cursor = 'pointer';
+contactButton.onclick = function() {
+    location.href = './mail/index.html';
+};
